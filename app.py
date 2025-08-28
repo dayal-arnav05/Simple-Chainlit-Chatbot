@@ -15,7 +15,7 @@ client = OpenAI(api_key=api_key)
 
 # Set page config
 st.set_page_config(page_title="ChatGPT", page_icon="🤖")
-st.title("ChatGPT")
+st.title("Deep Research Agent")
 
 # Initialize chat history
 if "messages" not in st.session_state:
